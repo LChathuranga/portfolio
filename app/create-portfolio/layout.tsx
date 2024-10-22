@@ -1,11 +1,11 @@
-import React from 'react';
-import { cn } from '@/lib/utils';
-import SidebarComp from '@components/SidebarComp';
+import React from 'react'
+import { cn } from '@/lib/utils'
+import SidebarComp from '@components/SidebarComp'
 
 export default function CreatePortfolioLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <>
@@ -18,5 +18,5 @@ export default function CreatePortfolioLayout({
         {children}
       </div>
     </>
-  );
+  )
 }

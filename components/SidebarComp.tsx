@@ -1,14 +1,14 @@
-'use client';
+'use client'
 
-import React, { useState } from 'react';
-import { Sidebar, SidebarBody, SidebarLink } from '@aceternity/sidebar';
-import Image from 'next/image';
+import React, { useState } from 'react'
+import { Sidebar, SidebarBody, SidebarLink } from '@aceternity/sidebar'
+import Image from 'next/image'
 import {
   IconArrowLeft,
   IconBrandTabler,
   IconSettings,
   IconUserBolt,
-} from '@tabler/icons-react';
+} from '@tabler/icons-react'
 
 const SidebarComp = () => {
   const links = [
@@ -40,8 +40,8 @@ const SidebarComp = () => {
         <IconArrowLeft className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
       ),
     },
-  ];
-  const [open, setOpen] = useState(false);
+  ]
+  const [open, setOpen] = useState(false)
 
   return (
     <>
@@ -75,7 +75,7 @@ const SidebarComp = () => {
         </SidebarBody>
       </Sidebar>
     </>
-  );
-};
+  )
+}
 
-export default SidebarComp;
+export default SidebarComp
